@@ -1,0 +1,26 @@
+# Logs
+logs/
+*.log
+
+# PowerShell
+*.ps1~
+
+# Credentials & Secrets
+config-local.ps1
+*credentials*
+*.token
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Temp files
+*.tmp
+*.bak
+
+# IDE
+.vscode/
+.idea/
+
+# Test data
+test-messages/

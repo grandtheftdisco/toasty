@@ -1,0 +1,54 @@
+{
+  "filters": [
+    {
+      "name": "Food Orders",
+      "keywords": [
+        "lunch",
+        "food",
+        "delivery",
+        "order",
+        "pizza",
+        "chipotle",
+        "subway",
+        "want anything",
+        "your usual",
+        "food run",
+        "grab something",
+        "heading to"
+      ],
+      "color": "green",
+      "enabled": true,
+      "description": "Lunch and food delivery offers from coworkers"
+    },
+    {
+      "name": "Emergency",
+      "keywords": [
+        "urgent",
+        "emergency",
+        "911",
+        "asap",
+        "help",
+        "critical"
+      ],
+      "color": "red",
+      "enabled": true,
+      "description": "Urgent notifications that need immediate attention"
+    },
+    {
+      "name": "General",
+      "keywords": [],
+      "color": "yellow",
+      "enabled": false,
+      "description": "Catch-all category for unmatched notifications (disabled by default)"
+    }
+  ],
+  "settings": {
+    "case_sensitive": false,
+    "partial_match": true,
+    "priority_order": [
+      "Emergency",
+      "Food Orders",
+      "General"
+    ]
+  }
+}
