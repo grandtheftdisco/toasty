@@ -24,3 +24,7 @@ desktop.ini
 
 # Test data
 test-messages/
+
+# Personal work tracking
+work_logs/
+project_plan/

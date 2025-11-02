@@ -329,6 +329,7 @@ This isn't just about building a notification filter - it's about learning:
 5. **Capitalize project names in documentation** - Toasty and Blinky (lowercase in filenames)
 6. **Progressive complexity** - Start simple, add features incrementally
 7. **Document discoveries** - Learning is part of the goal
+8. **Work logs should be concise** - Daily work logs in `work_logs/` should be brief bird's-eye summaries, rarely exceeding 100 lines unless absolutely necessary
 
 ---
 
